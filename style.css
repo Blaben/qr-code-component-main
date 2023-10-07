@@ -46,14 +46,13 @@ p{
     color: hsl(220, 15%, 55%);
 }
 
-@media (max-width: 400px){
+@media (max-width: 624px){
     body{
-        width: 300px;
+        width: 624px;
         height: auto;
     }
 
     .container{
-        width: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -67,7 +66,7 @@ p{
 
 }
 
-@media (max-width: 844px) and (orientation: landscape){
+/* @media (max-width: 844px) and (orientation: landscape){
     body{
         width: 850px;
         height: auto;
@@ -85,6 +84,6 @@ p{
         height: auto;
     }
 
-}
+} */
 
 
