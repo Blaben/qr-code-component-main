@@ -53,10 +53,11 @@ p{
     }
 
     .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d5e1ef;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d5e1ef;
     }
 
     img{
