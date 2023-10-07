@@ -46,9 +46,9 @@ p{
     color: hsl(220, 15%, 55%);
 }
 
-@media (max-width: 624px){
+@media (max-width: 500px){
     body{
-        width: auto;
+        width: 500px;
         height: auto;
     }
 
@@ -56,11 +56,11 @@ p{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #d87b10;
+        background-color: #d5e1ef;
     }
 
     img{
-        width: 200px;
+        width: 150px;
         height: auto;
     }
 
