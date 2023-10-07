@@ -15,89 +15,81 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
+This whole challenge is the beginning stage of my greatness into the world of Front End Development. I have been trying to master this skill for quite sometime now but get distructed almost all the time when I try to.
+So to build myself up with real challenging stuffs I took up a bld step to join the frontend mentor to learn, unlearn ad relearn.
+
+This is the first Challenge which is the QR Code component Challenge where I demonstrated a bit of my knowledge using HTML and CSS.
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+I have added a ascreenshot of the final work to a folder named images
 
 ### Links
+I added a link to my fiverr account and also to my social media accounts.
+have some Ideas we can work on as a team kindly reach out and lets get busy.
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+Step 1: I started off with taking a keen look at the images that was provided to me. I made a rough sketch on my notepad outlining how some of the element will be like.
 
+Step 2: went straight to my IDE (VS Code) and started coding things.
+first created my index.html file and after working on the skeletal part of the QR Component
+
+I moved on to create the styling in CSS for it.
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Mobile-first workflows
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
+This is actually my first time creating a mobile version of web page and the feeling was very great. I hope I did everything right?
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I really enjoyed writing this code in 
+```CSS
+@media (max-width: 844px) and (orientation: landscape){
+    body{
+        width: 850px;
+        height: auto;
+    }
 
-To see how you can add code snippets, see below:
+    .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5e1ef;
+    }
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+    img{
+        width: 200px;
+        height: auto;
+    }
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+} 
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+There are really a lot of things I would love to learn. I have a great way ahead of me
 
 ### Useful resources
+- [Example resource 1](https://www.youtube.com/watch?v=yU7jJ3NbPdA) - This helped me get more knowledge on responsive designs. I really liked how he explained this in the video.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 2](https://www.w3schools.com/cssref/playdemo.php?filename=playcss_box-shadow) - w3schools has been one of the tremendouse organization helping a lot if not all on most of the languages we learning today. I wasn't so surprise when (www.google.com) recommended this site for me to best learn and understand about box-shadows. I'd recommend this site to anyone still learning this concept or would love start learning.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
+- Website - [Benjamin Kwama Kutoh ](https://www.youtube.com/blabensolutions)
+- Frontend Mentor - [@Blaben](https://www.frontendmentor.io/profile/@Blaben)
+- Twitter - [@Blabensolutions](https://www.twitter.com/Blabensolutions)
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
+@blaben
+@web_dev_simplified
+@w3schools
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
