@@ -48,7 +48,7 @@ p{
 
 @media (max-width: 624px){
     body{
-        width: 624px;
+        width: auto;
         height: auto;
     }
 
@@ -66,7 +66,7 @@ p{
 
 }
 
-/* @media (max-width: 844px) and (orientation: landscape){
+@media (max-width: 844px) and (orientation: landscape){
     body{
         width: 850px;
         height: auto;
@@ -84,6 +84,6 @@ p{
         height: auto;
     }
 
-} */
+}
 
 
